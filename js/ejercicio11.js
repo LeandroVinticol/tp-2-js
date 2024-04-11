@@ -9,7 +9,7 @@ let edad2 = parseInt(prompt("Ingrese la edad de la segunda persona:"));
 let nombre3 = prompt("Ingrese el nombre de la tercera persona:");
 let edad3 = parseInt(prompt("Ingrese la edad de la tercera persona:"));
 
-edadMayor = Math.max(edad1, edad2, edad3);
+let edadMayor = Math.max(edad1, edad2, edad3);
 let nombreMayor = "";
 
 if (edadMayor === edad1) {
